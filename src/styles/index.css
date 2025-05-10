@@ -1,0 +1,38 @@
+:root{
+
+    /* Variable color */
+    --primary-color: #FED001;
+}
+
+html{
+    /* 1em = 10px */
+    /* font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; */
+    /* Shortcut*/
+    font: 400 62.5% 'Inter', sans-serif;
+}
+
+/* paragraph and link formatting */
+p,a{
+    /* 16px */
+    font-size: 1.6rem;
+}
+
+/* text formatting "...SER" */
+.upper{
+    text-transform: uppercase;
+}
+
+/* color settings */
+.wrapperContainer-dark{
+    background-color: #2a2a2a
+}
+
+.wrapperContainer-light{
+    background-color: #fafafa;
+}
+
+.wrapperContainer-dark2{
+    background-color: #003464
+}
